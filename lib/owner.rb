@@ -8,5 +8,17 @@ class Owner
   
   def buy_cat(name)
     cat = Cat.new(name)
-    @pets 
+    @pets[cat] << cat
+  end
+
+  def buy_cat(name)
+    cat = Cat.new(name)
+    @pets[cat] << cat
+  end
+  
+  def buy_cat(name)
+    cat = Cat.new(name)
+    @pets[cat] << cat
+  end
+  
 end
