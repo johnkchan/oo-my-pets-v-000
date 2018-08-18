@@ -61,10 +61,9 @@ class Owner
   end
   
   def sell_pets()
-    @pets[:cats] = []
-    @pets[:fishes] = []
-    @pets[:dogs] = []
-    
+    @pets.each do |key, value|
+      @pets[key] = []
+    end
   end
   
   def list_pets()
