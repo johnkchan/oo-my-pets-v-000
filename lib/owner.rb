@@ -61,8 +61,10 @@ class Owner
   end
   
   def sell_pets()
-    @pets.each do |key, value|
-      @pets[key] = []
+    @pets.each do |pets, value|
+      @pets[pets].each do |pet|
+        pet.mood = "nervous"
+      end
     end
   end
   
