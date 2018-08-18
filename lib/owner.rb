@@ -32,6 +32,24 @@ class Owner
     @pets[fishes] << fish
   end
   
+  def walk_dogs()
+    
+  end
   
+  def play_with_cats()
+    
+  end
+  
+  def feed_fish()
+    
+  end
+  
+  def sell_pets()
+    
+  end
+  
+  def list_pets()
+    
+  end
   
 end
