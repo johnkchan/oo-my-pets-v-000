@@ -15,6 +15,10 @@ class Owner
     @@all
   end
   
+  def reset_all()
+    @@all = []
+  end
+  
   def self.count()
     @@all.size
   end
